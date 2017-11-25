@@ -21,4 +21,16 @@ $days = [
 	'6' => 'Saturday',
 
 ];
+
+$day_trad = [
+	
+	'Sun' => 'Dimanche',
+	'Mon' => 'Lundi',
+	'Tue' => 'Mardi',
+	'Wed' => 'Mercredi',
+	'Thu' => 'Jeudi',
+	'Fri' => 'Vendredi',
+	'Sat' => 'Samedi',
+
+];
 ?>

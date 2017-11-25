@@ -50,14 +50,11 @@ strict.dtd">
 					<tr>
 						<th>Polygone</th>
 					</tr>
-					<tr>
-						<?php foreach ($polygones as $value) :?>
+					<?php foreach ($polygones as $value) :?>
+						<tr>
 							<td><?= $value ?></td>
 						</tr>
-						<tr>
-						<?php endforeach; ?>
-					</tr>
-					
+					<?php endforeach; ?>					
 				</table>
 			</div>
 		</div>

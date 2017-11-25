@@ -8,15 +8,3 @@ strict.dtd">
  </head>
 
  <body>
- <h1>TP n <?php echo $match[0] ?></h1>
-
-<?php
-	echo $chaine = "l'élève à dépassé le maître"; echo '<br>';
-	echo  "chaine= $chaine"."</br>";
-	echo "nb car =".mb_strlen($chaine)."</br>";
-	echo "pos. le =".mb_strpos($chaine, 'le')."</br>";
-	echo "pos. é = ".mb_strpos($chaine, 'é')."</br>";
-	echo "nb. é = ".substr_count($chaine, 'é')."</br>";
-?>
-</body>
-</html>

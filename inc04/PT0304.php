@@ -13,23 +13,21 @@ strict.dtd">
 	<?php include 'jours.inc.php'; ?>
 	<div class="container">
 		
-				<div class="row">
+		<div class="row">
 			<div class="col-lg-1">
 				<table>
 					<tr>
 						<th style="text-align: left">Jours</th>
 					</tr>
-					<tr>
-						<?php foreach ($jours as $value) :?>
+					<?php foreach ($jours as $value) :?>
+						<tr>
 							<td style="text-align: left"><?= $value ?></td>
 						</tr>
-						<tr>
-						<?php endforeach; ?>
-					</tr>
-					
+					<?php endforeach; ?>
 				</table>
 			</div>
 		</div>
+		
 	</div>
 </body>
 </html>

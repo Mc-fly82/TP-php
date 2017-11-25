@@ -20,14 +20,12 @@ strict.dtd">
 						<th style="text-align: left">N&ordm;</th>
 						<th style="text-align: left">Fran&ccedil;ais</th>
 					</tr>
-					<tr>
-						<?php for ($i=0; $i < $nb_jours = count($jours) ; $i++):  ?>
+					<?php for ($i=0; $i < $nb_jours = count($jours) ; $i++):  ?>
+						<tr>
 							<td style="text-align: left"><?= $i ?></td>
 							<td style="text-align: left"><?= $jours[$i] ?></td>
 						</tr>
-						<tr>
-						<?php endfor; ?>
-					</tr>
+					<?php endfor; ?>
 				</table>
 			</div>
 		</div>
