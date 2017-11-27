@@ -15,6 +15,7 @@ strict.dtd">
 	<h1>TP n <?php echo $match[0] ?></h1>
 
 <?php
+date_default_timezone_set('Europe/Paris');
 $courant = date('d/m/Y');
 $courant_day = date('D');
 $courant3Obj = date_add(date_create(), date_interval_create_from_date_string('3 days'));

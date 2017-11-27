@@ -1,4 +1,4 @@
-	<p><?php echo  $count ?> visite(s)</p>
+	<p><?php echo  $count[2] ?> visite(s)</p>
 
 	<footer>
 		
