@@ -11,7 +11,7 @@ strict.dtd">
 
 <body>
 	 <h1>TP n <?php echo $match[0] ?></h1>
-	<?php include 'include/departements.inc.php'; ?>
+	<?php require 'include/departements.inc.php'; ?>
 	<div class="container-fluid">
 		
 		<div class="row">

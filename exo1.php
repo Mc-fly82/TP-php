@@ -12,7 +12,7 @@ strict.dtd">
 
 <?php
 	echo $chaine = "l'élève à dépassé le maître"; echo '<br>';
-	echo  "chaine= $chaine"."</br>";
+	echo  "chaine= {$chaine}"."</br>";
 	echo "nb car =".mb_strlen($chaine)."</br>";
 	echo "pos. le =".mb_strpos($chaine, 'le')."</br>";
 	echo "pos. é = ".mb_strpos($chaine, 'é')."</br>";

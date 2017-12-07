@@ -11,8 +11,8 @@ strict.dtd">
 
 <body>
 	<h1>TP n <?php echo $match[0] ?></h1>
-	<?php include 'include/departements.inc.php'; ?>
-	<?php include 'include/dept_mp.inc.php'; ?>
+	<?php require 'include/departements.inc.php'; ?>
+	<?php require 'include/dept_mp.inc.php'; ?>
 	
 	<?php $dep_filter = array_filter($departements , function ($value,$key) use ($dept_mp) {
 		return in_array($key, $dept_mp) ? $value : null ;

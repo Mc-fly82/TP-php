@@ -10,7 +10,7 @@ strict.dtd">
 
 <body>
 	<h1>TP n 4 Suite page 2</h1>
-	<?php include 'jours.inc.php'; ?>
+	<?php require 'jours.inc.php'; ?>
 	<div class="container">
 		
 		<div class="row">

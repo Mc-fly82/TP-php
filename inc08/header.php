@@ -1,13 +1,14 @@
-<?php 
-include './../include/helpers.php';
+<?php
+// include './../include/helpers.php';
 $name = 'visites';
 $expiration = time() + 3600;
+$path = '/';
 
 $count = (int) $_COOKIE['visites'];//get cookie
 
-$count = $count + 1;//inc counter
-	
-set_cookier_counter($name,$count,$expiration);//set cookie
+$value = $count + 1;//inc counter
+
+setcookie($name,$value,$expiration,$path);//set cookie
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-

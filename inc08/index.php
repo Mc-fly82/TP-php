@@ -1,7 +1,6 @@
-<?php include 'header.php'; ?>
+<?php require 'header.php'; ?>
 <div class="container">
 	<h2>Page d'accueil</h2>
-<?php include 'nav.php'; ?>
+<?php require 'nav.php'; ?>
 </div>
-<?php include 'footer.php'; ?>
-
+<?php require 'footer.php'; ?>
