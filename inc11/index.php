@@ -1,7 +1,9 @@
 <?php
 require 'controller.php';
 ?>
+
 <?php require 'header.php'; ?>
+
 <div class="container">
 	<h2>Page d'accueil</h2>
 <?php require 'nav.php'; ?>

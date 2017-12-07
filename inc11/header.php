@@ -8,5 +8,13 @@ strict.dtd">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/inc.css">
+	<style media="screen">
+		.m-t{
+			margin-top: 10em
+		}
+		.has-error{
+			color: rgb(171, 0, 0);
+		}
+	</style>
 </head>
 <body>

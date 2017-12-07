@@ -1,11 +1,16 @@
 <!-- navigation -->
+<h3>Bonjour <?php echo $name ?></h3>
 <ul>
 	<li><a href="index.php">Page d'accueil</a></li>
 	<li><a href="page2.php">Page 2</a></li>
 	<li><a href="page3.php">Page 3</a></li>
-	<form name="myform" action="/include/raz_exo10.php" method="post">
+	<form name="myform" action="/include/raz_exo11.php" method="post">
 		<input hidden name="page" value="<?php  echo $page  ?>">
 		<li><a href="javascript: submitform()">raz compteur</a></li>
+	</form>
+	<form name="myform1" action="/inc11/deconnexion.php" method="post">
+		<input hidden name="page" value="<?php  echo $page  ?>">
+		<li><a href="javascript: submitform1()">d&eacute;connection</a></li>
 	</form>
 </ul>
 
